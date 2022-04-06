@@ -1,0 +1,645 @@
+Observatoire des territoires - ANCT,Unnamed: 1,Unnamed: 2,Unnamed: 3
+Insee - RP - données historiques depuis 1968 (Parc naturel régional),,,
+,,,
+,,,Densité de population
+codgeo,libgeo,an,dens_pop
+FR8000001,PNR du Vercors,1968,36.32
+FR8000001,PNR du Vercors,1975,41.38
+FR8000001,PNR du Vercors,1982,45.02
+FR8000001,PNR du Vercors,1990,49.48
+FR8000001,PNR du Vercors,1999,52.14
+FR8000001,PNR du Vercors,2007,54.75
+FR8000001,PNR du Vercors,2008,54.71
+FR8000001,PNR du Vercors,2012,55.82
+FR8000001,PNR du Vercors,2013,56.53
+FR8000001,PNR du Vercors,2017,57.45
+FR8000001,PNR du Vercors,2018,57.74
+FR8000002,PNR du Queyras,1968,5.95
+FR8000002,PNR du Queyras,1975,6.45
+FR8000002,PNR du Queyras,1982,7.82
+FR8000002,PNR du Queyras,1990,8.17
+FR8000002,PNR du Queyras,1999,8.43
+FR8000002,PNR du Queyras,2007,8.61
+FR8000002,PNR du Queyras,2008,8.69
+FR8000002,PNR du Queyras,2012,8.86
+FR8000002,PNR du Queyras,2013,8.76
+FR8000002,PNR du Queyras,2017,8.5
+FR8000002,PNR du Queyras,2018,8.42
+FR8000003,PNR du Luberon,1968,54.13
+FR8000003,PNR du Luberon,1975,61.78
+FR8000003,PNR du Luberon,1982,68.14
+FR8000003,PNR du Luberon,1990,78.69
+FR8000003,PNR du Luberon,1999,85.7
+FR8000003,PNR du Luberon,2007,91.94
+FR8000003,PNR du Luberon,2008,92.71
+FR8000003,PNR du Luberon,2012,94.46
+FR8000003,PNR du Luberon,2013,95.61
+FR8000003,PNR du Luberon,2017,97.53
+FR8000003,PNR du Luberon,2018,97.31
+FR8000004,PNR de Chartreuse,1968,90.67
+FR8000004,PNR de Chartreuse,1975,109.64
+FR8000004,PNR de Chartreuse,1982,125.87
+FR8000004,PNR de Chartreuse,1990,143.91
+FR8000004,PNR de Chartreuse,1999,157.97
+FR8000004,PNR de Chartreuse,2007,163.76
+FR8000004,PNR de Chartreuse,2008,165.08
+FR8000004,PNR de Chartreuse,2012,169.43
+FR8000004,PNR de Chartreuse,2013,169.79
+FR8000004,PNR de Chartreuse,2017,171.21
+FR8000004,PNR de Chartreuse,2018,172.26
+FR8000005,PNR d'Armorique,1968,49.95
+FR8000005,PNR d'Armorique,1975,47.04
+FR8000005,PNR d'Armorique,1982,47.63
+FR8000005,PNR d'Armorique,1990,45.97
+FR8000005,PNR d'Armorique,1999,45.73
+FR8000005,PNR d'Armorique,2007,48.26
+FR8000005,PNR d'Armorique,2008,48.54
+FR8000005,PNR d'Armorique,2012,49.14
+FR8000005,PNR d'Armorique,2013,49.13
+FR8000005,PNR d'Armorique,2017,48.82
+FR8000005,PNR d'Armorique,2018,48.55
+FR8000006,PNR des Ballons des Vosges,1968,83.76
+FR8000006,PNR des Ballons des Vosges,1975,84.48
+FR8000006,PNR des Ballons des Vosges,1982,83.69
+FR8000006,PNR des Ballons des Vosges,1990,83.55
+FR8000006,PNR des Ballons des Vosges,1999,85.6
+FR8000006,PNR des Ballons des Vosges,2007,87.51
+FR8000006,PNR des Ballons des Vosges,2008,87.54
+FR8000006,PNR des Ballons des Vosges,2012,86.42
+FR8000006,PNR des Ballons des Vosges,2013,86
+FR8000006,PNR des Ballons des Vosges,2017,84.55
+FR8000006,PNR des Ballons des Vosges,2018,84.08
+FR8000007,PNR des Caps et Marais d'Opale,1968,120.14
+FR8000007,PNR des Caps et Marais d'Opale,1975,127.87
+FR8000007,PNR des Caps et Marais d'Opale,1982,133.21
+FR8000007,PNR des Caps et Marais d'Opale,1990,138.95
+FR8000007,PNR des Caps et Marais d'Opale,1999,144.26
+FR8000007,PNR des Caps et Marais d'Opale,2007,148.33
+FR8000007,PNR des Caps et Marais d'Opale,2008,149.45
+FR8000007,PNR des Caps et Marais d'Opale,2012,151.66
+FR8000007,PNR des Caps et Marais d'Opale,2013,152.19
+FR8000007,PNR des Caps et Marais d'Opale,2017,153.63
+FR8000007,PNR des Caps et Marais d'Opale,2018,153.19
+FR8000008,PNR de la Brenne,1968,21.72
+FR8000008,PNR de la Brenne,1975,20.76
+FR8000008,PNR de la Brenne,1982,19.46
+FR8000008,PNR de la Brenne,1990,18.93
+FR8000008,PNR de la Brenne,1999,18.18
+FR8000008,PNR de la Brenne,2007,18.45
+FR8000008,PNR de la Brenne,2008,18.51
+FR8000008,PNR de la Brenne,2012,18.38
+FR8000008,PNR de la Brenne,2013,18.25
+FR8000008,PNR de la Brenne,2017,17.66
+FR8000008,PNR de la Brenne,2018,17.51
+FR8000009,PNR de Brière,1968,176.34
+FR8000009,PNR de Brière,1975,191.16
+FR8000009,PNR de Brière,1982,200.62
+FR8000009,PNR de Brière,1990,203.41
+FR8000009,PNR de Brière,1999,208.73
+FR8000009,PNR de Brière,2007,228.04
+FR8000009,PNR de Brière,2008,227.92
+FR8000009,PNR de Brière,2012,235.24
+FR8000009,PNR de Brière,2013,238.24
+FR8000009,PNR de Brière,2017,246.99
+FR8000009,PNR de Brière,2018,249.23
+FR8000010,PNR des Boucles de la Seine,1968,95.84
+FR8000010,PNR des Boucles de la Seine,1975,104.8
+FR8000010,PNR des Boucles de la Seine,1982,113.04
+FR8000010,PNR des Boucles de la Seine,1990,118.17
+FR8000010,PNR des Boucles de la Seine,1999,119.06
+FR8000010,PNR des Boucles de la Seine,2007,121.4
+FR8000010,PNR des Boucles de la Seine,2008,122.82
+FR8000010,PNR des Boucles de la Seine,2012,125.75
+FR8000010,PNR des Boucles de la Seine,2013,126.32
+FR8000010,PNR des Boucles de la Seine,2017,126.85
+FR8000010,PNR des Boucles de la Seine,2018,126.58
+FR8000011,PNR de Camargue,1968,46.65
+FR8000011,PNR de Camargue,1975,51.84
+FR8000011,PNR de Camargue,1982,52.14
+FR8000011,PNR de Camargue,1990,52.13
+FR8000011,PNR de Camargue,1999,50.63
+FR8000011,PNR de Camargue,2007,52.24
+FR8000011,PNR de Camargue,2008,52.66
+FR8000011,PNR de Camargue,2012,52.62
+FR8000011,PNR de Camargue,2013,52.8
+FR8000011,PNR de Camargue,2017,52.47
+FR8000011,PNR de Camargue,2018,51.05
+FR8000012,PNR de Corse,1968,10.47
+FR8000012,PNR de Corse,1975,10.55
+FR8000012,PNR de Corse,1982,10.35
+FR8000012,PNR de Corse,1990,10.2
+FR8000012,PNR de Corse,1999,10.9
+FR8000012,PNR de Corse,2007,11.67
+FR8000012,PNR de Corse,2008,12.07
+FR8000012,PNR de Corse,2012,11.93
+FR8000012,PNR de Corse,2013,12.66
+FR8000012,PNR de Corse,2017,12.54
+FR8000012,PNR de Corse,2018,12.86
+FR8000013,PNR de la Forêt d'Orient,1968,24.95
+FR8000013,PNR de la Forêt d'Orient,1975,25.4
+FR8000013,PNR de la Forêt d'Orient,1982,26.49
+FR8000013,PNR de la Forêt d'Orient,1990,26.31
+FR8000013,PNR de la Forêt d'Orient,1999,26.22
+FR8000013,PNR de la Forêt d'Orient,2007,27.89
+FR8000013,PNR de la Forêt d'Orient,2008,28.19
+FR8000013,PNR de la Forêt d'Orient,2012,29.19
+FR8000013,PNR de la Forêt d'Orient,2013,29.39
+FR8000013,PNR de la Forêt d'Orient,2017,29.09
+FR8000013,PNR de la Forêt d'Orient,2018,28.95
+FR8000014,PNR des Grands Causses,1968,22.33
+FR8000014,PNR des Grands Causses,1975,21.18
+FR8000014,PNR des Grands Causses,1982,20.92
+FR8000014,PNR des Grands Causses,1990,20.25
+FR8000014,PNR des Grands Causses,1999,19.9
+FR8000014,PNR des Grands Causses,2007,20.86
+FR8000014,PNR des Grands Causses,2008,20.89
+FR8000014,PNR des Grands Causses,2012,20.88
+FR8000014,PNR des Grands Causses,2013,20.97
+FR8000014,PNR des Grands Causses,2017,21.12
+FR8000014,PNR des Grands Causses,2018,21.12
+FR8000015,PNR du haut Jura,1968,42.36
+FR8000015,PNR du haut Jura,1975,45.74
+FR8000015,PNR du haut Jura,1982,47.67
+FR8000015,PNR du haut Jura,1990,53.28
+FR8000015,PNR du haut Jura,1999,56.62
+FR8000015,PNR du haut Jura,2007,61.33
+FR8000015,PNR du haut Jura,2008,62.13
+FR8000015,PNR du haut Jura,2012,64.39
+FR8000015,PNR du haut Jura,2013,65.03
+FR8000015,PNR du haut Jura,2017,67.33
+FR8000015,PNR du haut Jura,2018,67.22
+FR8000016,PNR du Haut-Languedoc,1968,29.89
+FR8000016,PNR du Haut-Languedoc,1975,28.62
+FR8000016,PNR du Haut-Languedoc,1982,28.36
+FR8000016,PNR du Haut-Languedoc,1990,28.06
+FR8000016,PNR du Haut-Languedoc,1999,27.6
+FR8000016,PNR du Haut-Languedoc,2007,28.86
+FR8000016,PNR du Haut-Languedoc,2008,28.93
+FR8000016,PNR du Haut-Languedoc,2012,29.02
+FR8000016,PNR du Haut-Languedoc,2013,28.95
+FR8000016,PNR du Haut-Languedoc,2017,28.63
+FR8000016,PNR du Haut-Languedoc,2018,28.51
+FR8000017,PNR de la Haute-Vallée de Chevreuse,1968,96.34
+FR8000017,PNR de la Haute-Vallée de Chevreuse,1975,133.08
+FR8000017,PNR de la Haute-Vallée de Chevreuse,1982,169.01
+FR8000017,PNR de la Haute-Vallée de Chevreuse,1990,193.36
+FR8000017,PNR de la Haute-Vallée de Chevreuse,1999,211.19
+FR8000017,PNR de la Haute-Vallée de Chevreuse,2007,221.53
+FR8000017,PNR de la Haute-Vallée de Chevreuse,2008,221.59
+FR8000017,PNR de la Haute-Vallée de Chevreuse,2012,221.84
+FR8000017,PNR de la Haute-Vallée de Chevreuse,2013,222.31
+FR8000017,PNR de la Haute-Vallée de Chevreuse,2017,226.92
+FR8000017,PNR de la Haute-Vallée de Chevreuse,2018,227.24
+FR8000018,PNR des Landes de Gascogne,1968,11.54
+FR8000018,PNR des Landes de Gascogne,1975,11.71
+FR8000018,PNR des Landes de Gascogne,1982,13.03
+FR8000018,PNR des Landes de Gascogne,1990,14.95
+FR8000018,PNR des Landes de Gascogne,1999,17.23
+FR8000018,PNR des Landes de Gascogne,2007,21.4
+FR8000018,PNR des Landes de Gascogne,2008,21.86
+FR8000018,PNR des Landes de Gascogne,2012,23.76
+FR8000018,PNR des Landes de Gascogne,2013,24.34
+FR8000018,PNR des Landes de Gascogne,2017,26.32
+FR8000018,PNR des Landes de Gascogne,2018,26.93
+FR8000019,PNR Livradois-Forez,1968,37.22
+FR8000019,PNR Livradois-Forez,1975,35.78
+FR8000019,PNR Livradois-Forez,1982,34.96
+FR8000019,PNR Livradois-Forez,1990,33.82
+FR8000019,PNR Livradois-Forez,1999,32.93
+FR8000019,PNR Livradois-Forez,2007,33.26
+FR8000019,PNR Livradois-Forez,2008,33.32
+FR8000019,PNR Livradois-Forez,2012,33.17
+FR8000019,PNR Livradois-Forez,2013,33.18
+FR8000019,PNR Livradois-Forez,2017,33.25
+FR8000019,PNR Livradois-Forez,2018,33.19
+FR8000020,PNR de Lorraine,1968,34.77
+FR8000020,PNR de Lorraine,1975,34.18
+FR8000020,PNR de Lorraine,1982,34.21
+FR8000020,PNR de Lorraine,1990,34.98
+FR8000020,PNR de Lorraine,1999,35.36
+FR8000020,PNR de Lorraine,2007,37.08
+FR8000020,PNR de Lorraine,2008,37.31
+FR8000020,PNR de Lorraine,2012,37.81
+FR8000020,PNR de Lorraine,2013,37.74
+FR8000020,PNR de Lorraine,2017,37.28
+FR8000020,PNR de Lorraine,2018,37.21
+FR8000021,PNR des Marais du Cotentin et du Bessin,1968,50.82
+FR8000021,PNR des Marais du Cotentin et du Bessin,1975,48.79
+FR8000021,PNR des Marais du Cotentin et du Bessin,1982,48.19
+FR8000021,PNR des Marais du Cotentin et du Bessin,1990,48.03
+FR8000021,PNR des Marais du Cotentin et du Bessin,1999,48.47
+FR8000021,PNR des Marais du Cotentin et du Bessin,2007,50.46
+FR8000021,PNR des Marais du Cotentin et du Bessin,2008,50.77
+FR8000021,PNR des Marais du Cotentin et du Bessin,2012,51.3
+FR8000021,PNR des Marais du Cotentin et du Bessin,2013,51.3
+FR8000021,PNR des Marais du Cotentin et du Bessin,2017,50.6
+FR8000021,PNR des Marais du Cotentin et du Bessin,2018,50.37
+FR8000023,PNR de Martinique,1968,290.05
+FR8000023,PNR de Martinique,1975,294.45
+FR8000023,PNR de Martinique,1982,297.65
+FR8000023,PNR de Martinique,1990,325.1
+FR8000023,PNR de Martinique,1999,342.96
+FR8000023,PNR de Martinique,2007,355.47
+FR8000023,PNR de Martinique,2008,355.02
+FR8000023,PNR de Martinique,2012,346.05
+FR8000023,PNR de Martinique,2013,343.51
+FR8000023,PNR de Martinique,2017,331.31
+FR8000023,PNR de Martinique,2018,327.92
+FR8000024,PNR de la Montagne de Reims,1968,61.07
+FR8000024,PNR de la Montagne de Reims,1975,61.27
+FR8000024,PNR de la Montagne de Reims,1982,62.24
+FR8000024,PNR de la Montagne de Reims,1990,63.26
+FR8000024,PNR de la Montagne de Reims,1999,64.67
+FR8000024,PNR de la Montagne de Reims,2007,64.68
+FR8000024,PNR de la Montagne de Reims,2008,64.84
+FR8000024,PNR de la Montagne de Reims,2012,64.66
+FR8000024,PNR de la Montagne de Reims,2013,64.51
+FR8000024,PNR de la Montagne de Reims,2017,63.92
+FR8000024,PNR de la Montagne de Reims,2018,63.53
+FR8000025,PNR du Morvan,1968,27.71
+FR8000025,PNR du Morvan,1975,26.76
+FR8000025,PNR du Morvan,1982,25.67
+FR8000025,PNR du Morvan,1990,24.05
+FR8000025,PNR du Morvan,1999,22.81
+FR8000025,PNR du Morvan,2007,18
+FR8000025,PNR du Morvan,2008,21.86
+FR8000025,PNR du Morvan,2012,17.62
+FR8000025,PNR du Morvan,2013,21.07
+FR8000025,PNR du Morvan,2017,16.73
+FR8000025,PNR du Morvan,2018,20.04
+FR8000026,PNR Normandie-Maine,1968,37.65
+FR8000026,PNR Normandie-Maine,1975,36.72
+FR8000026,PNR Normandie-Maine,1982,36.68
+FR8000026,PNR Normandie-Maine,1990,36.35
+FR8000026,PNR Normandie-Maine,1999,36.17
+FR8000026,PNR Normandie-Maine,2007,36.78
+FR8000026,PNR Normandie-Maine,2008,36.7
+FR8000026,PNR Normandie-Maine,2012,36.63
+FR8000026,PNR Normandie-Maine,2013,36.47
+FR8000026,PNR Normandie-Maine,2017,35.72
+FR8000026,PNR Normandie-Maine,2018,35.42
+FR8000027,PNR du Pilat,1968,348.88
+FR8000027,PNR du Pilat,1975,349.22
+FR8000027,PNR du Pilat,1982,336.13
+FR8000027,PNR du Pilat,1990,332.02
+FR8000027,PNR du Pilat,1999,312.37
+FR8000027,PNR du Pilat,2007,311.05
+FR8000027,PNR du Pilat,2008,309.07
+FR8000027,PNR du Pilat,2012,310.11
+FR8000027,PNR du Pilat,2013,311.05
+FR8000027,PNR du Pilat,2017,312.65
+FR8000027,PNR du Pilat,2018,313.6
+FR8000028,PNR des Volcans d'Auvergne,1968,24.74
+FR8000028,PNR des Volcans d'Auvergne,1975,23.62
+FR8000028,PNR des Volcans d'Auvergne,1982,23.39
+FR8000028,PNR des Volcans d'Auvergne,1990,23.12
+FR8000028,PNR des Volcans d'Auvergne,1999,22.34
+FR8000028,PNR des Volcans d'Auvergne,2007,22.81
+FR8000028,PNR des Volcans d'Auvergne,2008,22.81
+FR8000028,PNR des Volcans d'Auvergne,2012,22.78
+FR8000028,PNR des Volcans d'Auvergne,2013,22.87
+FR8000028,PNR des Volcans d'Auvergne,2017,23.1
+FR8000028,PNR des Volcans d'Auvergne,2018,23.14
+FR8000029,PNR des Vosges du Nord,1968,68.35
+FR8000029,PNR des Vosges du Nord,1975,69.44
+FR8000029,PNR des Vosges du Nord,1982,69.94
+FR8000029,PNR des Vosges du Nord,1990,70.16
+FR8000029,PNR des Vosges du Nord,1999,71.88
+FR8000029,PNR des Vosges du Nord,2007,73.68
+FR8000029,PNR des Vosges du Nord,2008,73.78
+FR8000029,PNR des Vosges du Nord,2012,73.47
+FR8000029,PNR des Vosges du Nord,2013,73.13
+FR8000029,PNR des Vosges du Nord,2017,71.9
+FR8000029,PNR des Vosges du Nord,2018,71.52
+FR8000030,PNR du Vexin français,1968,82.16
+FR8000030,PNR du Vexin français,1975,92.04
+FR8000030,PNR du Vexin français,1982,102.95
+FR8000030,PNR du Vexin français,1990,119.19
+FR8000030,PNR du Vexin français,1999,130.44
+FR8000030,PNR du Vexin français,2007,137.07
+FR8000030,PNR du Vexin français,2008,138.22
+FR8000030,PNR du Vexin français,2012,140.76
+FR8000030,PNR du Vexin français,2013,141.56
+FR8000030,PNR du Vexin français,2017,144.3
+FR8000030,PNR du Vexin français,2018,144.26
+FR8000031,PNR du Massif des Bauges,1968,40.92
+FR8000031,PNR du Massif des Bauges,1975,44.83
+FR8000031,PNR du Massif des Bauges,1982,52.56
+FR8000031,PNR du Massif des Bauges,1990,60.99
+FR8000031,PNR du Massif des Bauges,1999,68.97
+FR8000031,PNR du Massif des Bauges,2007,78.64
+FR8000031,PNR du Massif des Bauges,2008,79.69
+FR8000031,PNR du Massif des Bauges,2012,83.58
+FR8000031,PNR du Massif des Bauges,2013,84.58
+FR8000031,PNR du Massif des Bauges,2017,87.05
+FR8000031,PNR du Massif des Bauges,2018,87.66
+FR8000031 et FR8000004,PNR du Massif des Bauges et PNR de Chartreuse,1968,63.6
+FR8000031 et FR8000004,PNR du Massif des Bauges et PNR de Chartreuse,1975,68.27
+FR8000031 et FR8000004,PNR du Massif des Bauges et PNR de Chartreuse,1982,80.79
+FR8000031 et FR8000004,PNR du Massif des Bauges et PNR de Chartreuse,1990,88.96
+FR8000031 et FR8000004,PNR du Massif des Bauges et PNR de Chartreuse,1999,126.62
+FR8000031 et FR8000004,PNR du Massif des Bauges et PNR de Chartreuse,2008,148.56
+FR8000031 et FR8000004,PNR du Massif des Bauges et PNR de Chartreuse,2013,152.6
+FR8000031 et FR8000004,PNR du Massif des Bauges et PNR de Chartreuse,2018,166.83
+FR8000032,PNR Loire-Anjou-Touraine,1968,59.23
+FR8000032,PNR Loire-Anjou-Touraine,1975,59.91
+FR8000032,PNR Loire-Anjou-Touraine,1982,63.86
+FR8000032,PNR Loire-Anjou-Touraine,1990,66.06
+FR8000032,PNR Loire-Anjou-Touraine,1999,67.28
+FR8000032,PNR Loire-Anjou-Touraine,2007,70.35
+FR8000032,PNR Loire-Anjou-Touraine,2008,70.96
+FR8000032,PNR Loire-Anjou-Touraine,2012,72.22
+FR8000032,PNR Loire-Anjou-Touraine,2013,72.47
+FR8000032,PNR Loire-Anjou-Touraine,2017,72.6
+FR8000032,PNR Loire-Anjou-Touraine,2018,72.46
+FR8000033,PNR du Verdon,1968,8.51
+FR8000033,PNR du Verdon,1975,8.91
+FR8000033,PNR du Verdon,1982,10.22
+FR8000033,PNR du Verdon,1990,11.8
+FR8000033,PNR du Verdon,1999,13.02
+FR8000033,PNR du Verdon,2007,16.17
+FR8000033,PNR du Verdon,2008,16.61
+FR8000033,PNR du Verdon,2012,17.82
+FR8000033,PNR du Verdon,2013,17.95
+FR8000033,PNR du Verdon,2017,18.44
+FR8000033,PNR du Verdon,2018,18.45
+FR8000034,PNR du Perche,1968,38.3
+FR8000034,PNR du Perche,1975,39.06
+FR8000034,PNR du Perche,1982,39.12
+FR8000034,PNR du Perche,1990,38.95
+FR8000034,PNR du Perche,1999,39.34
+FR8000034,PNR du Perche,2007,39.86
+FR8000034,PNR du Perche,2008,39.82
+FR8000034,PNR du Perche,2012,39.52
+FR8000034,PNR du Perche,2013,39.25
+FR8000034,PNR du Perche,2017,37.69
+FR8000034,PNR du Perche,2018,37.33
+FR8000035,PNR Périgord-Limousin,1968,32.36
+FR8000035,PNR Périgord-Limousin,1975,30.59
+FR8000035,PNR Périgord-Limousin,1982,29.05
+FR8000035,PNR Périgord-Limousin,1990,27.85
+FR8000035,PNR Périgord-Limousin,1999,26.71
+FR8000035,PNR Périgord-Limousin,2007,27.02
+FR8000035,PNR Périgord-Limousin,2008,27.01
+FR8000035,PNR Périgord-Limousin,2012,26.79
+FR8000035,PNR Périgord-Limousin,2013,26.75
+FR8000035,PNR Périgord-Limousin,2017,26.19
+FR8000035,PNR Périgord-Limousin,2018,26.06
+FR8000036,PNR de l'Avesnois,1968,134.54
+FR8000036,PNR de l'Avesnois,1975,133.87
+FR8000036,PNR de l'Avesnois,1982,131.31
+FR8000036,PNR de l'Avesnois,1990,129.33
+FR8000036,PNR de l'Avesnois,1999,126.49
+FR8000036,PNR de l'Avesnois,2007,126.38
+FR8000036,PNR de l'Avesnois,2008,126.47
+FR8000036,PNR de l'Avesnois,2012,126.85
+FR8000036,PNR de l'Avesnois,2013,126.48
+FR8000036,PNR de l'Avesnois,2017,124.49
+FR8000036,PNR de l'Avesnois,2018,123.86
+FR8000037,PNR Scarpe-Escaut,1968,416.63
+FR8000037,PNR Scarpe-Escaut,1975,408.32
+FR8000037,PNR Scarpe-Escaut,1982,401.54
+FR8000037,PNR Scarpe-Escaut,1990,394.49
+FR8000037,PNR Scarpe-Escaut,1999,392.6
+FR8000037,PNR Scarpe-Escaut,2007,391.23
+FR8000037,PNR Scarpe-Escaut,2008,392.14
+FR8000037,PNR Scarpe-Escaut,2012,393.42
+FR8000037,PNR Scarpe-Escaut,2013,392.64
+FR8000037,PNR Scarpe-Escaut,2017,393.64
+FR8000037,PNR Scarpe-Escaut,2018,393.85
+FR8000038,PNR du Gâtinais français,1968,51.64
+FR8000038,PNR du Gâtinais français,1975,64.28
+FR8000038,PNR du Gâtinais français,1982,76.9
+FR8000038,PNR du Gâtinais français,1990,93.5
+FR8000038,PNR du Gâtinais français,1999,102.41
+FR8000038,PNR du Gâtinais français,2007,109.86
+FR8000038,PNR du Gâtinais français,2008,110.02
+FR8000038,PNR du Gâtinais français,2012,111.59
+FR8000038,PNR du Gâtinais français,2013,112.58
+FR8000038,PNR du Gâtinais français,2017,111.96
+FR8000038,PNR du Gâtinais français,2018,111.55
+FR8000039,PNR des Causses du Quercy,1968,14.2
+FR8000039,PNR des Causses du Quercy,1975,13.58
+FR8000039,PNR des Causses du Quercy,1982,14.21
+FR8000039,PNR des Causses du Quercy,1990,14.05
+FR8000039,PNR des Causses du Quercy,1999,15.03
+FR8000039,PNR des Causses du Quercy,2007,16.5
+FR8000039,PNR des Causses du Quercy,2008,16.78
+FR8000039,PNR des Causses du Quercy,2012,17.34
+FR8000039,PNR des Causses du Quercy,2013,17.38
+FR8000039,PNR des Causses du Quercy,2017,17.55
+FR8000039,PNR des Causses du Quercy,2018,17.58
+FR8000040,PNR de Guyane,1968,0.3
+FR8000040,PNR de Guyane,1975,0.33
+FR8000040,PNR de Guyane,1982,0.37
+FR8000040,PNR de Guyane,1990,0.73
+FR8000040,PNR de Guyane,1999,0.77
+FR8000040,PNR de Guyane,2007,1.12
+FR8000040,PNR de Guyane,2008,1.16
+FR8000040,PNR de Guyane,2012,1.21
+FR8000040,PNR de Guyane,2013,1.24
+FR8000040,PNR de Guyane,2017,1.34
+FR8000040,PNR de Guyane,2018,1.34
+FR8000041,PNR des monts d'Ardèche,1968,31.2
+FR8000041,PNR des monts d'Ardèche,1975,29.05
+FR8000041,PNR des monts d'Ardèche,1982,28.75
+FR8000041,PNR des monts d'Ardèche,1990,28.53
+FR8000041,PNR des monts d'Ardèche,1999,28.35
+FR8000041,PNR des monts d'Ardèche,2007,30.28
+FR8000041,PNR des monts d'Ardèche,2008,30.47
+FR8000041,PNR des monts d'Ardèche,2012,30.93
+FR8000041,PNR des monts d'Ardèche,2013,31
+FR8000041,PNR des monts d'Ardèche,2017,31.01
+FR8000041,PNR des monts d'Ardèche,2018,31.03
+FR8000042,PNR de la Narbonnaise en Méditerranée,1968,82.44
+FR8000042,PNR de la Narbonnaise en Méditerranée,1975,83.73
+FR8000042,PNR de la Narbonnaise en Méditerranée,1982,88.51
+FR8000042,PNR de la Narbonnaise en Méditerranée,1990,98.86
+FR8000042,PNR de la Narbonnaise en Méditerranée,1999,105
+FR8000042,PNR de la Narbonnaise en Méditerranée,2007,121.12
+FR8000042,PNR de la Narbonnaise en Méditerranée,2008,121.9
+FR8000042,PNR de la Narbonnaise en Méditerranée,2012,127.02
+FR8000042,PNR de la Narbonnaise en Méditerranée,2013,128.97
+FR8000042,PNR de la Narbonnaise en Méditerranée,2017,132.97
+FR8000042,PNR de la Narbonnaise en Méditerranée,2018,134.34
+FR8000043,PNR Oise-Pays de France,1968,180.8
+FR8000043,PNR Oise-Pays de France,1975,209.54
+FR8000043,PNR Oise-Pays de France,1982,237.86
+FR8000043,PNR Oise-Pays de France,1990,253
+FR8000043,PNR Oise-Pays de France,1999,262.59
+FR8000043,PNR Oise-Pays de France,2007,271.2
+FR8000043,PNR Oise-Pays de France,2008,275.37
+FR8000043,PNR Oise-Pays de France,2012,274.2
+FR8000043,PNR Oise-Pays de France,2013,280.13
+FR8000043,PNR Oise-Pays de France,2017,273.77
+FR8000043,PNR Oise-Pays de France,2018,283.39
+FR8000044,PNR des Pyrénées catalanes,1968,12.65
+FR8000044,PNR des Pyrénées catalanes,1975,12.98
+FR8000044,PNR des Pyrénées catalanes,1982,13.7
+FR8000044,PNR des Pyrénées catalanes,1990,14.24
+FR8000044,PNR des Pyrénées catalanes,1999,15.16
+FR8000044,PNR des Pyrénées catalanes,2007,16.28
+FR8000044,PNR des Pyrénées catalanes,2008,16.22
+FR8000044,PNR des Pyrénées catalanes,2012,16.06
+FR8000044,PNR des Pyrénées catalanes,2013,16.06
+FR8000044,PNR des Pyrénées catalanes,2017,16.17
+FR8000044,PNR des Pyrénées catalanes,2018,16.18
+FR8000045,PNR de Millevaches en Limousin,1968,16.67
+FR8000045,PNR de Millevaches en Limousin,1975,15.23
+FR8000045,PNR de Millevaches en Limousin,1982,14.08
+FR8000045,PNR de Millevaches en Limousin,1990,13.07
+FR8000045,PNR de Millevaches en Limousin,1999,12.24
+FR8000045,PNR de Millevaches en Limousin,2007,12.12
+FR8000045,PNR de Millevaches en Limousin,2008,12.07
+FR8000045,PNR de Millevaches en Limousin,2012,11.83
+FR8000045,PNR de Millevaches en Limousin,2013,11.79
+FR8000045,PNR de Millevaches en Limousin,2017,11.74
+FR8000045,PNR de Millevaches en Limousin,2018,11.68
+FR8000046,PNR des Alpilles,1968,52.33
+FR8000046,PNR des Alpilles,1975,58.19
+FR8000046,PNR des Alpilles,1982,70.36
+FR8000046,PNR des Alpilles,1990,77.67
+FR8000046,PNR des Alpilles,1999,84.42
+FR8000046,PNR des Alpilles,2007,89.5
+FR8000046,PNR des Alpilles,2008,90.31
+FR8000046,PNR des Alpilles,2012,94.5
+FR8000046,PNR des Alpilles,2013,95.67
+FR8000046,PNR des Alpilles,2017,98.51
+FR8000046,PNR des Alpilles,2018,98.87
+FR8000047,PNR des Pyrénées ariégeoises,1968,18.89
+FR8000047,PNR des Pyrénées ariégeoises,1975,17.96
+FR8000047,PNR des Pyrénées ariégeoises,1982,17.36
+FR8000047,PNR des Pyrénées ariégeoises,1990,16.73
+FR8000047,PNR des Pyrénées ariégeoises,1999,16.82
+FR8000047,PNR des Pyrénées ariégeoises,2007,17.93
+FR8000047,PNR des Pyrénées ariégeoises,2008,18.06
+FR8000047,PNR des Pyrénées ariégeoises,2012,18.2
+FR8000047,PNR des Pyrénées ariégeoises,2013,18.16
+FR8000047,PNR des Pyrénées ariégeoises,2017,18.18
+FR8000047,PNR des Pyrénées ariégeoises,2018,18.19
+FR8000048,PNR des Ardennes,1968,75.88
+FR8000048,PNR des Ardennes,1975,74.07
+FR8000048,PNR des Ardennes,1982,71.51
+FR8000048,PNR des Ardennes,1990,69.06
+FR8000048,PNR des Ardennes,1999,66.94
+FR8000048,PNR des Ardennes,2007,64.54
+FR8000048,PNR des Ardennes,2008,64.17
+FR8000048,PNR des Ardennes,2012,63.31
+FR8000048,PNR des Ardennes,2013,62.95
+FR8000048,PNR des Ardennes,2017,61.21
+FR8000048,PNR des Ardennes,2018,60.42
+FR8000049,PNR des Préalpes d'Azur,1968,55.12
+FR8000049,PNR des Préalpes d'Azur,1975,66.42
+FR8000049,PNR des Préalpes d'Azur,1982,79.81
+FR8000049,PNR des Préalpes d'Azur,1990,94.37
+FR8000049,PNR des Préalpes d'Azur,1999,103.48
+FR8000049,PNR des Préalpes d'Azur,2007,118.31
+FR8000049,PNR des Préalpes d'Azur,2008,119.66
+FR8000049,PNR des Préalpes d'Azur,2012,120.46
+FR8000049,PNR des Préalpes d'Azur,2013,120.81
+FR8000049,PNR des Préalpes d'Azur,2017,120.78
+FR8000049,PNR des Préalpes d'Azur,2018,119.65
+FR8000050,PNR du marais poitevin,1968,76.83
+FR8000050,PNR du marais poitevin,1975,81.78
+FR8000050,PNR du marais poitevin,1982,82.53
+FR8000050,PNR du marais poitevin,1990,83.64
+FR8000050,PNR du marais poitevin,1999,85.04
+FR8000050,PNR du marais poitevin,2007,93.03
+FR8000050,PNR du marais poitevin,2008,93.65
+FR8000050,PNR du marais poitevin,2012,95.99
+FR8000050,PNR du marais poitevin,2013,96.28
+FR8000050,PNR du marais poitevin,2017,97.83
+FR8000050,PNR du marais poitevin,2018,98.15
+FR8000051,PNR du Golfe du Morbihan,1968,121.59
+FR8000051,PNR du Golfe du Morbihan,1975,139.63
+FR8000051,PNR du Golfe du Morbihan,1982,156.47
+FR8000051,PNR du Golfe du Morbihan,1990,176.83
+FR8000051,PNR du Golfe du Morbihan,1999,202.14
+FR8000051,PNR du Golfe du Morbihan,2007,230.96
+FR8000051,PNR du Golfe du Morbihan,2008,233.62
+FR8000051,PNR du Golfe du Morbihan,2012,242.02
+FR8000051,PNR du Golfe du Morbihan,2013,244.88
+FR8000051,PNR du Golfe du Morbihan,2017,252.62
+FR8000051,PNR du Golfe du Morbihan,2018,255.19
+FR8000052,PNR des Baronnies provençales,1968,13.92
+FR8000052,PNR des Baronnies provençales,1975,14.26
+FR8000052,PNR des Baronnies provençales,1982,15
+FR8000052,PNR des Baronnies provençales,1990,15.65
+FR8000052,PNR des Baronnies provençales,1999,16.55
+FR8000052,PNR des Baronnies provençales,2007,17.83
+FR8000052,PNR des Baronnies provençales,2008,17.99
+FR8000052,PNR des Baronnies provençales,2012,17.8
+FR8000052,PNR des Baronnies provençales,2013,17.82
+FR8000052,PNR des Baronnies provençales,2017,18.05
+FR8000052,PNR des Baronnies provençales,2018,18.01
+FR8000053,PNR de la Sainte-Baume,1968,37.94
+FR8000053,PNR de la Sainte-Baume,1975,43.8
+FR8000053,PNR de la Sainte-Baume,1982,56.74
+FR8000053,PNR de la Sainte-Baume,1990,76.04
+FR8000053,PNR de la Sainte-Baume,1999,94.65
+FR8000053,PNR de la Sainte-Baume,2007,113.59
+FR8000053,PNR de la Sainte-Baume,2008,114.95
+FR8000053,PNR de la Sainte-Baume,2012,118.75
+FR8000053,PNR de la Sainte-Baume,2013,120.35
+FR8000053,PNR de la Sainte-Baume,2017,125.88
+FR8000053,PNR de la Sainte-Baume,2018,127.62
+FR8000054,PNR de l'Aubrac,1968,15.53
+FR8000054,PNR de l'Aubrac,1975,14.39
+FR8000054,PNR de l'Aubrac,1982,13.97
+FR8000054,PNR de l'Aubrac,1990,13.25
+FR8000054,PNR de l'Aubrac,1999,12.75
+FR8000054,PNR de l'Aubrac,2007,13.14
+FR8000054,PNR de l'Aubrac,2008,13.13
+FR8000054,PNR de l'Aubrac,2012,12.9
+FR8000054,PNR de l'Aubrac,2013,12.88
+FR8000054,PNR de l'Aubrac,2017,12.66
+FR8000054,PNR de l'Aubrac,2018,12.61
+FR8000055,PNR Medoc,1968,25.06
+FR8000055,PNR Medoc,1975,26.65
+FR8000055,PNR Medoc,1982,30.06
+FR8000055,PNR Medoc,1990,33.17
+FR8000055,PNR Medoc,1999,34.6
+FR8000055,PNR Medoc,2007,38.83
+FR8000055,PNR Medoc,2008,39.57
+FR8000055,PNR Medoc,2012,42.28
+FR8000055,PNR Medoc,2013,42.84
+FR8000055,PNR Medoc,2017,45.48
+FR8000055,PNR Medoc,2018,46.04
+FR8000056,PNR Baie de Somme Picardie Maritime,1968,81.59
+FR8000056,PNR Baie de Somme Picardie Maritime,1975,83.4
+FR8000056,PNR Baie de Somme Picardie Maritime,1982,82.02
+FR8000056,PNR Baie de Somme Picardie Maritime,1990,80.9
+FR8000056,PNR Baie de Somme Picardie Maritime,1999,80.99
+FR8000056,PNR Baie de Somme Picardie Maritime,2007,83.03
+FR8000056,PNR Baie de Somme Picardie Maritime,2008,83.21
+FR8000056,PNR Baie de Somme Picardie Maritime,2012,82.87
+FR8000056,PNR Baie de Somme Picardie Maritime,2013,82.46
+FR8000056,PNR Baie de Somme Picardie Maritime,2017,80.88
+FR8000056,PNR Baie de Somme Picardie Maritime,2018,80.4
+FR8000057,PNR du Mont Ventoux,1968,56.33
+FR8000057,PNR du Mont Ventoux,1975,62.07
+FR8000057,PNR du Mont Ventoux,1982,68.26
+FR8000057,PNR du Mont Ventoux,1990,74.12
+FR8000057,PNR du Mont Ventoux,1999,82.88
+FR8000057,PNR du Mont Ventoux,2007,91.4
+FR8000057,PNR du Mont Ventoux,2008,92.38
+FR8000057,PNR du Mont Ventoux,2012,93.26
+FR8000057,PNR du Mont Ventoux,2013,92.88
+FR8000057,PNR du Mont Ventoux,2017,93.2
+FR8000057,PNR du Mont Ventoux,2018,94.07
+FR8000058,PNR du Doubs Horloger,1968,43.26
+FR8000058,PNR du Doubs Horloger,1975,44.89
+FR8000058,PNR du Doubs Horloger,1982,44.45
+FR8000058,PNR du Doubs Horloger,1990,45.36
+FR8000058,PNR du Doubs Horloger,1999,46.23
+FR8000058,PNR du Doubs Horloger,2008,50.06
+FR8000058,PNR du Doubs Horloger,2013,53.5
+FR8000058,PNR du Doubs Horloger,2018,55.58
+FR8000059,PNR Corbières-Fenouillèdes,1968,19.98
+FR8000059,PNR Corbières-Fenouillèdes,1975,18.23
+FR8000059,PNR Corbières-Fenouillèdes,1982,17.75
+FR8000059,PNR Corbières-Fenouillèdes,1990,17.04
+FR8000059,PNR Corbières-Fenouillèdes,1999,16.32
+FR8000059,PNR Corbières-Fenouillèdes,2008,17.18
+FR8000059,PNR Corbières-Fenouillèdes,2013,17.22
+FR8000059,PNR Corbières-Fenouillèdes,2018,16.78

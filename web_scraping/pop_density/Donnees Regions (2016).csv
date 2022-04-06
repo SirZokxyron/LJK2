@@ -1,0 +1,203 @@
+Observatoire des territoires - ANCT,Unnamed: 1,Unnamed: 2,Unnamed: 3
+Insee - RP - données historiques depuis 1968 (Région (2016)),,,
+,,,
+,,,Densité de population
+codgeo,libgeo,an,dens_pop
+01,Guadeloupe,1968,187.49
+01,Guadeloupe,1975,193.96
+01,Guadeloupe,1982,194.83
+01,Guadeloupe,1990,217.04
+01,Guadeloupe,1999,237.39
+01,Guadeloupe,2007,246
+01,Guadeloupe,2008,246.74
+01,Guadeloupe,2012,247.68
+01,Guadeloupe,2013,246.94
+01,Guadeloupe,2017,239.65
+01,Guadeloupe,2018,238.04
+02,Martinique,1968,283.71
+02,Martinique,1975,287.97
+02,Martinique,1982,291.28
+02,Martinique,1990,318.77
+02,Martinique,1999,338.14
+02,Martinique,2007,352.6
+02,Martinique,2008,352.56
+02,Martinique,2012,344.29
+02,Martinique,2013,341.8
+02,Martinique,2017,330.31
+02,Martinique,2018,326.94
+03,Guyane,1968,0.53
+03,Guyane,1975,0.66
+03,Guyane,1982,0.87
+03,Guyane,1990,1.37
+03,Guyane,1999,1.88
+03,Guyane,2007,2.55
+03,Guyane,2008,2.62
+03,Guyane,2012,2.87
+03,Guyane,2013,2.92
+03,Guyane,2017,3.22
+03,Guyane,2018,3.31
+04,La Réunion,1968,166.36
+04,La Réunion,1975,190.39
+04,La Réunion,1982,206.02
+04,La Réunion,1990,238.77
+04,La Réunion,1999,282.1
+04,La Réunion,2007,317.17
+04,La Réunion,2008,322.82
+04,La Réunion,2012,333.08
+04,La Réunion,2013,333.54
+04,La Réunion,2017,340.96
+04,La Réunion,2018,341.88
+06,Mayotte,1968,
+06,Mayotte,1975,
+06,Mayotte,1982,
+06,Mayotte,1990,
+06,Mayotte,1999,
+06,Mayotte,2007,
+06,Mayotte,2008,
+06,Mayotte,2012,
+06,Mayotte,2013,
+06,Mayotte,2017,
+06,Mayotte,2018,
+11,Île-de-France,1968,769.93
+11,Île-de-France,1975,822.37
+11,Île-de-France,1982,838.56
+11,Île-de-France,1990,887.47
+11,Île-de-France,1999,911.74
+11,Île-de-France,2007,965.58
+11,Île-de-France,2008,970.61
+11,Île-de-France,2012,990.53
+11,Île-de-France,2013,995.63
+11,Île-de-France,2017,1013.54
+11,Île-de-France,2018,1016.75
+24,Centre-Val de Loire,1968,50.83
+24,Centre-Val de Loire,1975,54.98
+24,Centre-Val de Loire,1982,57.83
+24,Centre-Val de Loire,1990,60.56
+24,Centre-Val de Loire,1999,62.33
+24,Centre-Val de Loire,2007,64.54
+24,Centre-Val de Loire,2008,64.66
+24,Centre-Val de Loire,2012,65.48
+24,Centre-Val de Loire,2013,65.66
+24,Centre-Val de Loire,2017,65.8
+24,Centre-Val de Loire,2018,65.72
+27,Bourgogne-Franche-Comté,1968,52.22
+27,Bourgogne-Franche-Comté,1975,55.07
+27,Bourgogne-Franche-Comté,1982,56.09
+27,Bourgogne-Franche-Comté,1990,56.65
+27,Bourgogne-Franche-Comté,1999,57.07
+27,Bourgogne-Franche-Comté,2007,58.44
+27,Bourgogne-Franche-Comté,2008,58.65
+27,Bourgogne-Franche-Comté,2012,58.95
+27,Bourgogne-Franche-Comté,2013,59.01
+27,Bourgogne-Franche-Comté,2017,58.84
+27,Bourgogne-Franche-Comté,2018,58.76
+28,Normandie,1968,92.2
+28,Normandie,1975,97.03
+28,Normandie,1982,100.52
+28,Normandie,1990,104.61
+28,Normandie,1999,107.08
+28,Normandie,2007,109.61
+28,Normandie,2008,110.11
+28,Normandie,2012,111.1
+28,Normandie,2013,111.29
+28,Normandie,2017,111.36
+28,Normandie,2018,111.26
+32,Hauts-de-France,1968,169.6
+32,Hauts-de-France,1975,175.83
+32,Hauts-de-France,1982,178.37
+32,Hauts-de-France,1990,181.59
+32,Hauts-de-France,1999,184.05
+32,Hauts-de-France,2007,186.19
+32,Hauts-de-France,2008,186.47
+32,Hauts-de-France,2012,187.8
+32,Hauts-de-France,2013,188.26
+32,Hauts-de-France,2017,188.76
+32,Hauts-de-France,2018,188.77
+44,Grand Est,1968,86.46
+44,Grand Est,1975,90.27
+44,Grand Est,1982,91.08
+44,Grand Est,1990,91.89
+44,Grand Est,1999,93.78
+44,Grand Est,2007,95.87
+44,Grand Est,2008,96.13
+44,Grand Est,2012,96.6
+44,Grand Est,2013,96.66
+44,Grand Est,2017,96.61
+44,Grand Est,2018,96.63
+52,Pays de la Loire,1968,80.51
+52,Pays de la Loire,1975,86.25
+52,Pays de la Loire,1982,91.34
+52,Pays de la Loire,1990,95.35
+52,Pays de la Loire,1999,100.43
+52,Pays de la Loire,2007,108.55
+52,Pays de la Loire,2008,109.41
+52,Pays de la Loire,2012,113.23
+52,Pays de la Loire,2013,114.11
+52,Pays de la Loire,2017,117.13
+52,Pays de la Loire,2018,117.87
+53,Bretagne,1968,90.72
+53,Bretagne,1975,95.39
+53,Bretagne,1982,99.53
+53,Bretagne,1990,102.75
+53,Bretagne,1999,106.81
+53,Bretagne,2007,114.68
+53,Bretagne,2008,115.76
+53,Bretagne,2012,118.98
+53,Bretagne,2013,119.77
+53,Bretagne,2017,121.98
+53,Bretagne,2018,122.59
+75,Nouvelle-Aquitaine,1968,55.65
+75,Nouvelle-Aquitaine,1975,57.32
+75,Nouvelle-Aquitaine,1982,59.05
+75,Nouvelle-Aquitaine,1990,60.85
+75,Nouvelle-Aquitaine,1999,62.58
+75,Nouvelle-Aquitaine,2007,66.97
+75,Nouvelle-Aquitaine,2008,67.48
+75,Nouvelle-Aquitaine,2012,69.12
+75,Nouvelle-Aquitaine,2013,69.54
+75,Nouvelle-Aquitaine,2017,70.89
+75,Nouvelle-Aquitaine,2018,71.16
+76,Occitanie,1968,53.52
+76,Occitanie,1975,55.8
+76,Occitanie,1982,58.47
+76,Occitanie,1990,62.51
+76,Occitanie,1999,66.65
+76,Occitanie,2007,73.86
+76,Occitanie,2008,74.53
+76,Occitanie,2012,77.37
+76,Occitanie,2013,78.16
+76,Occitanie,2017,80.37
+76,Occitanie,2018,80.93
+84,Auvergne-Rhône-Alpes,1968,82.27
+84,Auvergne-Rhône-Alpes,1975,87.66
+84,Auvergne-Rhône-Alpes,1982,91.07
+84,Auvergne-Rhône-Alpes,1990,95.71
+84,Auvergne-Rhône-Alpes,1999,99.76
+84,Auvergne-Rhône-Alpes,2007,106.23
+84,Auvergne-Rhône-Alpes,2008,107
+84,Auvergne-Rhône-Alpes,2012,110.39
+84,Auvergne-Rhône-Alpes,2013,111.28
+84,Auvergne-Rhône-Alpes,2017,114.02
+84,Auvergne-Rhône-Alpes,2018,114.68
+93,Provence-Alpes-Côte d'Azur,1968,105.06
+93,Provence-Alpes-Côte d'Azur,1975,117.06
+93,Provence-Alpes-Côte d'Azur,1982,126.28
+93,Provence-Alpes-Côte d'Azur,1990,135.6
+93,Provence-Alpes-Côte d'Azur,1999,143.51
+93,Provence-Alpes-Côte d'Azur,2007,154.91
+93,Provence-Alpes-Côte d'Azur,2008,155.51
+93,Provence-Alpes-Côte d'Azur,2012,157.19
+93,Provence-Alpes-Côte d'Azur,2013,157.76
+93,Provence-Alpes-Côte d'Azur,2017,160.22
+93,Provence-Alpes-Côte d'Azur,2018,160.92
+94,Corse,1968,23.65
+94,Corse,1975,25.99
+94,Corse,1982,27.67
+94,Corse,1990,28.85
+94,Corse,1999,29.98
+94,Corse,2007,34.47
+94,Corse,2008,34.9
+94,Corse,2012,36.44
+94,Corse,2013,36.89
+94,Corse,2017,38.59
+94,Corse,2018,39
