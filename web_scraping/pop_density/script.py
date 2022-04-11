@@ -13,6 +13,15 @@ def fix_name(name):
 	name = name.replace("ô", "o")
 	return name
 
+def cond(text):
+	if "Regions" in text:
+		return True
+	if "Departements" in text:
+		return True
+	if "Communes" in text:
+		return True
+	return False
+
 def get_download_url(url):
 	""" Parse an url from www.observatoire-des-territoires.gouv.fr/ with download files.
 		Return a list of the download links.
@@ -20,7 +29,7 @@ def get_download_url(url):
 	req = requests.get(url)
 	soup = BeautifulSoup(req.text, "html.parser")
 	download_options = soup.find('select', id="download_list", class_ = 'form-select form-control')
-	return [(fix_name(obj.text), obj['value']) for obj in download_options]
+	return [(fix_name(obj.text), obj['value']) for obj in download_options if cond(fix_name(obj.text))]
 
 def download_file(file_url, dest_file):
 	""" Download the file at {file_url} to local file {dest_file}.xlsx
@@ -42,9 +51,9 @@ if __name__ == "__main__":
 	n = len(dl_urls)
 	for url_i in range(n):
 		dest_file, file_url = dl_urls[url_i]
-		with cs.status(f"({url_i+1}/{n}) Downloading {dest_file[:24]}.xlsx..."):
+		with cs.status(f"({2*url_i+1}/{2*n}) Downloading {dest_file[:24]}.xlsx..."):
 			download_file(file_url, dest_file)
-		print(f"✔ ({url_i+1}/{n}) Downloading {dest_file[:24]}.xlsx... DONE")
-		with cs.status(f"({url_i+1}/{n}) Converting to {dest_file[:24]}.csv..."):
+		print(f"✔ ({2*url_i+1}/{2*n}) Downloading {dest_file[:24]}.xlsx... DONE")
+		with cs.status(f"({2*url_i+2}/{2*n}) Converting to {dest_file[:24]}.csv..."):
 			create_csv(dest_file)
-		print(f"✔ ({url_i+1}/{n}) Converting to {dest_file[:24]}.csv... DONE")
+		print(f"✔ ({2*url_i+2}/{2*n}) Converting to {dest_file[:24]}.csv... DONE")
