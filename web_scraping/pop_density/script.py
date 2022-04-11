@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
-from rich.progress import Progress
+from rich.console import Console
 
 def fix_name(name):
 	""" Fixes name for downloaded files
@@ -19,15 +19,15 @@ def get_download_url(url):
 	"""
 	req = requests.get(url)
 	soup = BeautifulSoup(req.text, "html.parser")
-	download_options = soup.find('select', class_ = 'form-select form-control')
+	download_options = soup.find('select', id="download_list", class_ = 'form-select form-control')
 	return [(fix_name(obj.text), obj['value']) for obj in download_options]
 
 def download_file(file_url, dest_file):
 	""" Download the file at {file_url} to local file {dest_file}.xlsx
 	"""
-	obj = requests.get(file_url)
-	with open(dest_file+".xlsx", 'wb') as file:
-		file.write(obj.content)
+	with requests.get(file_url) as resp:
+		with open(dest_file+".xlsx", 'wb') as file:
+			file.write(resp.content)
 
 def create_csv(dest_file):
 	""" Create local file {dest_file}.csv from {dest_csv}.xlsx
@@ -36,16 +36,15 @@ def create_csv(dest_file):
 	read_xlsx.to_csv(dest_file+".csv", index = None, header = True)
 
 if __name__ == "__main__":
+	cs = Console()
 	url = "https://www.observatoire-des-territoires.gouv.fr/densite-de-population"
 	dl_urls = get_download_url(url)
-	with Progress(auto_refresh=False) as prg:
-		main_task = prg.add_task("[green]Overall progress", total=len(dl_urls))
-		for dest_file, file_url in dl_urls:
-			sub_task = prg.add_task(f"[blue]Processing {dest_file[:24]}...", total=2)
+	n = len(dl_urls)
+	for url_i in range(n):
+		dest_file, file_url = dl_urls[url_i]
+		with cs.status(f"({url_i+1}/{n}) Downloading {dest_file[:24]}.xlsx..."):
 			download_file(file_url, dest_file)
-			prg.update(sub_task, advance=1)
-			prg.refresh()
+		print(f"✔ ({url_i+1}/{n}) Downloading {dest_file[:24]}.xlsx... DONE")
+		with cs.status(f"({url_i+1}/{n}) Converting to {dest_file[:24]}.csv..."):
 			create_csv(dest_file)
-			prg.update(sub_task, advance=1)
-			prg.update(main_task, advance=1)
-			prg.refresh()
+		print(f"✔ ({url_i+1}/{n}) Converting to {dest_file[:24]}.csv... DONE")
