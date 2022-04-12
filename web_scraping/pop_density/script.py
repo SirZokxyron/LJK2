@@ -43,6 +43,8 @@ def create_csv(dest_file):
 	"""
 	read_xlsx = pd.read_excel(dest_file+".xlsx")
 	read_xlsx.to_csv(dest_file+".csv", index = None, header = True)
+	with open(dest_file+".csv", "r") as f_in: data = f_in.readlines()[4:]
+	with open(dest_file+".csv", "w") as f_out: f_out.writelines(data)
 
 if __name__ == "__main__":
 	cs = Console()
@@ -57,3 +59,4 @@ if __name__ == "__main__":
 		with cs.status(f"({2*url_i+2}/{2*n}) Converting to {dest_file[:24]}.csv..."):
 			create_csv(dest_file)
 		print(f"✔ ({2*url_i+2}/{2*n}) Converting to {dest_file[:24]}.csv... DONE")
+	
