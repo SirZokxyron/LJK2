@@ -43,20 +43,31 @@ def create_csv(dest_file):
 	"""
 	read_xlsx = pd.read_excel(dest_file+".xlsx")
 	read_xlsx.to_csv(dest_file+".csv", index = None, header = True)
-	with open(dest_file+".csv", "r") as f_in: data = f_in.readlines()[4:]
-	with open(dest_file+".csv", "w") as f_out: f_out.writelines(data)
+	
+def fixing_csv(dest_file):
+	with open(dest_file+".csv", "r") as f_in: 
+		data = f_in.readlines()[4:]
+	with open(dest_file+".csv", "w") as f_out:
+		f_out.writelines(data)
+
 
 if __name__ == "__main__":
 	cs = Console()
 	url = "https://www.observatoire-des-territoires.gouv.fr/densite-de-population"
 	dl_urls = get_download_url(url)
 	n = len(dl_urls)
+	f = lambda x, i: 3*x+i
 	for url_i in range(n):
 		dest_file, file_url = dl_urls[url_i]
-		with cs.status(f"({2*url_i+1}/{2*n}) Downloading {dest_file[:24]}.xlsx..."):
+		
+		with cs.status(f"({f(url_i, 1)}/{f(n, 0)}) Downloading {dest_file[:24]}.xlsx..."):
 			download_file(file_url, dest_file)
-		print(f"✔ ({2*url_i+1}/{2*n}) Downloading {dest_file[:24]}.xlsx... DONE")
-		with cs.status(f"({2*url_i+2}/{2*n}) Converting to {dest_file[:24]}.csv..."):
+		print(f"✔ ({f(url_i, 1)}/{f(n, 0)}) Downloading {dest_file[:24]}.xlsx... DONE")
+		
+		with cs.status(f"({f(url_i, 2)}/{f(n, 0)}) Converting to {dest_file[:24]}.csv..."):
 			create_csv(dest_file)
-		print(f"✔ ({2*url_i+2}/{2*n}) Converting to {dest_file[:24]}.csv... DONE")
-	
+		print(f"✔ ({f(url_i, 2)}/{f(n, 0)}) Converting to {dest_file[:24]}.csv... DONE")
+		
+		with cs.status(f"({f(url_i, 3)}/{f(n, 0)}) Fixing {dest_file[:24]}.csv..."):
+			fixing_csv(dest_file)
+		print(f"✔ ({f(url_i, 3)}/{f(n, 0)}) Fixing {dest_file[:24]}.csv... DONE")
