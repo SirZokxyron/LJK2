@@ -2,34 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 from rich.console import Console
-
-def fix_name(name):
-	""" Fixes name for downloaded files
-	"""
-	name = name.replace("/", "")
-	name = name.replace("\"", "")
-	name = name.replace("é", "e")
-	name = name.replace("'", " ")
-	name = name.replace("ô", "o")
-	return name
-
-def cond(text):
-	if "Regions" in text:
-		return True
-	if "Departements" in text:
-		return True
-	if "Communes" in text:
-		return True
-	return False
-
-def get_download_url(url):
-	""" Parse an url from www.observatoire-des-territoires.gouv.fr/ with download files.
-		Return a list of the download links.
-	"""
-	req = requests.get(url)
-	soup = BeautifulSoup(req.text, "html.parser")
-	download_options = soup.find('select', id="download_list", class_ = 'form-select form-control')
-	return [(fix_name(obj.text), obj['value']) for obj in download_options if cond(fix_name(obj.text))]
+from os.path import exists
 
 def download_file(file_url, dest_file):
 	""" Download the file at {file_url} to local file {dest_file}.xlsx
@@ -38,36 +11,91 @@ def download_file(file_url, dest_file):
 		with open(dest_file+".xlsx", 'wb') as file:
 			file.write(resp.content)
 
-def create_csv(dest_file):
-	""" Create local file {dest_file}.csv from {dest_csv}.xlsx
+def create_csv(file):
+	""" Create local file {file}.csv from {dest_csv}.xlsx
 	"""
-	read_xlsx = pd.read_excel(dest_file+".xlsx")
-	read_xlsx.to_csv(dest_file+".csv", index = None, header = True)
+	read_xlsx = pd.read_excel(file+".xlsx")
+	read_xlsx.to_csv(file+".csv", index = None, header = True)
 	
-def fixing_csv(dest_file):
-	with open(dest_file+".csv", "r") as f_in: 
-		data = f_in.readlines()[4:]
-	with open(dest_file+".csv", "w") as f_out:
+def remove_first_lines(file, n):
+	""" Removes the first {n} lines of the given {file}.
+	"""
+	with open(file, "r") as f_in: 
+		data = f_in.readlines()[n:]
+	with open(file, "w") as f_out:
 		f_out.writelines(data)
 
+def remove_lines_between(file, a, b):
+	""" Removes the lines between {a} and {b} of the given {file}.
+	"""
+	with open(file, "r") as f_in: 
+		data = f_in.readlines()
+	with open(file, "w") as f_out:
+		f_out.writelines(data[:a])
+		f_out.writelines(data[b:])
+
+def remove_last_lines(file, n):
+	""" Removes the last {n} lines of the given {file}.
+	"""
+	with open(file, "r") as f_in: 
+		data = f_in.readlines()
+		data = data[:len(data)-n]
+	with open(file, "w") as f_out:
+		f_out.writelines(data)
 
 if __name__ == "__main__":
 	cs = Console()
-	url = "https://www.observatoire-des-territoires.gouv.fr/densite-de-population"
-	dl_urls = get_download_url(url)
-	n = len(dl_urls)
+
+	# Retrieve download links from our txt
+	with open("download_links.txt") as file:
+		urls = [url.split(',') for url in file.read().splitlines()]
+
+	n = len(urls)
+	
 	f = lambda x, i: 3*x+i
-	for url_i in range(n):
-		dest_file, file_url = dl_urls[url_i]
+
+	for i in range(n):
+		# Get the current filename and url to process
+		dest_file, file_url = urls[i]
 		
-		with cs.status(f"({f(url_i, 1)}/{f(n, 0)}) Downloading {dest_file[:24]}.xlsx..."):
-			download_file(file_url, dest_file)
-		print(f"✔ ({f(url_i, 1)}/{f(n, 0)}) Downloading {dest_file[:24]}.xlsx... DONE")
+		# Check if file was already previously downloaded
+		if (not exists(dest_file+".xlsx")):
+			with cs.status(f"({f(i, 1)}/{f(n, 0)}) Downloading {dest_file[:24]}.xlsx..."):
+				download_file(file_url, dest_file)		# Download the file from the url
+			print(f"\x1b[32m✔\x1b[0m ({f(i, 1)}/{f(n, 0)}) Downloading {dest_file[:24]}.xlsx... \x1b[32mDONE\x1b[0m")
 		
-		with cs.status(f"({f(url_i, 2)}/{f(n, 0)}) Converting to {dest_file[:24]}.csv..."):
-			create_csv(dest_file)
-		print(f"✔ ({f(url_i, 2)}/{f(n, 0)}) Converting to {dest_file[:24]}.csv... DONE")
-		
-		with cs.status(f"({f(url_i, 3)}/{f(n, 0)}) Fixing {dest_file[:24]}.csv..."):
-			fixing_csv(dest_file)
-		print(f"✔ ({f(url_i, 3)}/{f(n, 0)}) Fixing {dest_file[:24]}.csv... DONE")
+		if (not exists(dest_file+".csv")):
+			with cs.status(f"({f(i, 2)}/{f(n, 0)}) Converting to {dest_file[:24]}.csv..."):
+				create_csv(dest_file)					# Convert the .xlsx to the .csv
+			print(f"\x1b[32m✔\x1b[0m ({f(i, 2)}/{f(n, 0)}) Converting to {dest_file[:24]}.csv... \x1b[32mDONE\x1b[0m")
+			
+			with cs.status(f"({f(i, 3)}/{f(n, 0)}) Removing first 4 lines of {dest_file[:24]}.csv..."):
+				remove_first_lines(dest_file+".csv", 4)	# Remove the first 4 lines of the newly created .csv
+			print(f"\x1b[32m✔\x1b[0m ({f(i, 3)}/{f(n, 0)}) Removing first 4 lines of {dest_file[:24]}.csv... \x1b[32mDONE\x1b[0m")
+
+	print("\x1b[34mAdditionnal Cleaning\x1b[0m: Do you want to remove Overseas France ? (\x1b[32m[y]es\x1b[0m/\x1b[31m[n]o\x1b[0m)", end=" ")
+	usr_inp = input().lower()
+	while usr_inp != 'y' and usr_inp != 'n':
+		print("\x1b[31mError\x1b[0m: Invalid input.")
+		print("\x1b[34mAdditionnal Cleaning\x1b[0m: Do you want to remove Overseas France ? ([y]es/[n]o)", end=" ")
+		usr_inp = input().lower()
+
+	# Leaving if all good
+	if (usr_inp == 'n'): exit(0)
+
+	# More filtering in the .csv
+	file_commune = urls[0][0]+".csv"
+	file_departe = urls[1][0]+".csv"
+	file_regions = urls[2][0]+".csv"
+
+	# Fix communes
+	remove_last_lines(file_commune, 1032)
+	print(f"\x1b[32m✔\x1b[0m (1/3) Removing Overseas France from {file_commune[:24]}... \x1b[32mDONE\x1b[0m")
+
+	# Fix departements
+	remove_last_lines(file_departe, 55)
+	print(f"\x1b[32m✔\x1b[0m (2/3) Removing Overseas France from {file_departe[:24]}... \x1b[32mDONE\x1b[0m")
+
+	# Fix regions
+	remove_lines_between(file_regions, 1, 56)
+	print(f"\x1b[32m✔\x1b[0m (3/3) Removing Overseas France from {file_regions[:24]}... \x1b[32mDONE\x1b[0m")

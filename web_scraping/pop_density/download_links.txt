@@ -1,0 +1,3 @@
+Densite_Communes,https://www.observatoire-des-territoires.gouv.fr/outils/cartographie-interactive/api/v1/functions/GC_API_download.php?type=stat&nivgeo=com2021&dataset=insee_rp_hist_1968&indic=dens_pop
+Densite_Departements,https://www.observatoire-des-territoires.gouv.fr/outils/cartographie-interactive/api/v1/functions/GC_API_download.php?type=stat&nivgeo=dep&dataset=insee_rp_hist_1968&indic=dens_pop
+Densite_Regions,https://www.observatoire-des-territoires.gouv.fr/outils/cartographie-interactive/api/v1/functions/GC_API_download.php?type=stat&nivgeo=reg2016&dataset=insee_rp_hist_1968&indic=dens_pop
