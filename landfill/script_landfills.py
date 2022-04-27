@@ -18,7 +18,7 @@ def process(url):
     soup = BeautifulSoup(response.text, 'html.parser') # Parsing the results
 
     # Opening DB.csv file in writing mode
-    f = open('DB.csv', 'w')
+    f = open('landfills.csv', 'w')
 
     writer = csv.writer(f)
 

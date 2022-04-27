@@ -23,10 +23,10 @@ if(!(exists("ui"))){
         
       # Représente le choix des années pour la densité
       # selectionner les années dans les densitées afin de les affichers
-      selectInput("densitee", 
-                  label = "Densités",
-                  choices = con,
-                  selected = con[1]),
+      checkboxGroupInput("deche", 
+                  label = "Type de Dechetteries sélectionnée",
+                  choices = c("Ressourceries" = "1","Dechetteries" = "2","Recycleries" = "4"),
+                  selected = c("1","2","4")),
       
       # Pour sélectionner la couleur de la carte
       selectInput("couleur", 
@@ -49,21 +49,21 @@ if(!(exists("ui"))){
   )
 }
 
+
 if(!(exists("server"))){
   # On crée un server pour réagir à l'ui
-  server <- function(input, output, session) {
+  server <- function(input, output) {
     
     # On affiche la map
     output$map <- renderLeaflet({
       # On change de zones quand on choisit une autre zone
       zone = switch(input$contour,
-
                        "Densité par Département" = noms_departements,
                        "Densité par Région" = noms_regions)
     
       # On change de contour quand on change de zone
       cont = switch(input$contour,
-                       "Densité par Commune" = communes, # Mettre la france à la place
+                       "Densité par Commune" = france , # Mettre la france à la place
                        "Densité par Département" = departements,
                        "Densité par Région" = regions,
                        "Heatmap des Distances" = france,
@@ -74,25 +74,15 @@ if(!(exists("server"))){
                        "Densité par Commune" = dc,
                        "Densité par Département" = dd,
                        "Densité par Région" = dr)
-      # Rajouter la selection d'année avec [input$densitee]
       
-      # On change les valeurs de densité possible quand on change de zones
-      # observe({
-      #   arg <- input$contour
-      #   updateSelectInput(session, "densitee",
-      #                     label = "Densité",
-      #                     choices = dead[,arg],
-      #                     selected = tail(dead[,arg],1))
-      # })
-  
       # On change de couleur quand on change la couleur
       col = switch(input$couleur,
                    "Viridis" = v,
-                   "Spectre des Couleurs" = p,
-                   "Inferno" = enf,
-                   "Rose" = rause,
-                   "Glacier" = Xx_Dark_Ice_Gold_xX,
-                   "Classique" = c)
+                   "Spectre des Couleurs" = spectre,
+                   "Inferno" = enfer,
+                   "Rose" = rose,
+                   "Glacier" = glacier,
+                   "Classique" = classique)
   
       # On change la couleur des points quand on change la couleur générale
       col_point = switch(input$couleur,
@@ -101,18 +91,40 @@ if(!(exists("server"))){
                          "Inferno" = "blue",
                          "Rose" = "green",
                          "Glacier" = "red",
-                         "Classique" = "blue",)
+                         "Classique" = "blue")
+      
+      choixdech = sum(as.integer(input$deche))
+      choixdech
+      r = switch(choixdech,
+                 "1" = r_rs,
+                 "2" = r_dech,
+                 "3" = r_rsd,
+                 "4" = r_rc,
+                 "5" = r_rcs,
+                 "6" = r_rcd,
+                 "7" = r_all)
+      
+      points_s = switch(choixdech,
+                        "0" = points[points$Type == "Autre",],
+                        "1" = points[points$Type == "Ressourcerie",],
+                        "2" = points[points$Type == "Déchetterie",],
+                        "3" = points[points$Type != "Recyclerie",],
+                        "4" = points[points$Type == "Recyclerie",],
+                        "5" = points[points$Type != "Déchetterie",],
+                        "6" = points[points$Type != "Ressourcerie",],
+                        "7" = points)
       
       # On affiche la map avec tous les changements
-      brr = switch(input$contour,
-                   "Densité par Commune" = mapping_dechetterie(col), 
-                   "Densité par Département" =  mapping(cont, zone, densit, col, point, col_point),
-                   "Densité par Région" =  mapping(cont, zone, densit, col, point, col_point),
-                   "Heatmap des Distances" = mapping_dechetterie(col),
-                   "Heatmap des Déchetteries" = mapping_dechetterie(col))
+      mapp = switch(input$contour,
+                   "Densité par Commune" = mapping_communes(rcom,col,points_s,col_point), 
+                   "Densité par Département" =  mapping(cont, zone, densit, col, points_s, col_point),
+                   "Densité par Région" =  mapping(cont, zone, densit, col, points_s, col_point),
+                   "Heatmap des Distances" = mapping_dist(r_dist,col),
+                   "Heatmap des Déchetteries" = mapping_dechetterie(r,col))
     })
   }
 }
+
 
 # On affiche l'application avec l'ui et le server
 shinyApp(ui, server)
