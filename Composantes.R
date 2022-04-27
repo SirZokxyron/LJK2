@@ -5,7 +5,6 @@ library(shiny)
 library(raster)
 library(spatstat)
 
-
 # Récupération des cooordonnées des déchetteries
 if (!exists("dech")){
   points = read.csv("landfill/landfills.csv")
@@ -76,7 +75,7 @@ if (!exists("region")){
 # Récupération de la france
 if (!exists("france")){
   france = geojsonio::geojson_read("map.geojson", what = "sp")
-  # https://raw.githubusercontent.com/SirZokxyron/LJK2/c83ddcb595c98d53abca1ae3e14cd27ea9120391/geojson/map2.geojson
+  # https://raw.githubusercontent.com/SirZokxyron/LJK2/c83ddcb595c98d53abca1ae3e14cd27ea9120391/france_noe.geojson
 }
   
 
