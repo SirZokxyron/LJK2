@@ -105,7 +105,6 @@ if(!(exists("server"))){
                  "7" = r_all)
       
       points_s = switch(choixdech,
-                        "0" = points[points$Type == "Autre",],
                         "1" = points[points$Type == "Ressourcerie",],
                         "2" = points[points$Type == "Déchetterie",],
                         "3" = points[points$Type != "Recyclerie",],

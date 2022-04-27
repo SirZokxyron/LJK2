@@ -1,4 +1,4 @@
-source("Composantes.R")
+source("composantes.R")
 
 # On test si la fonction a déjà été crée
 if (!(exists("mapping"))){

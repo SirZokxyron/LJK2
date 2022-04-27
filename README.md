@@ -3,7 +3,7 @@ A data science visualization project in the cursus of our L3 M&I at UGA
 
 ## The Team
 
-Hugo Bensbia (chef de projet), Paul Andre, Youssef Abyaa, Noe Romain, Victor Sigrist, Jude Coulavin
+Hugo Bensbia (manager), Paul Andre, Youssef Abyaa, Noe Romain, Victor Sigrist, Jude Coulavin
 
 ## Repo organization
 
