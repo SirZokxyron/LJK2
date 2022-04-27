@@ -4,14 +4,18 @@ import re
 import csv
 from bs4 import BeautifulSoup
 
-# A first version v0.02 (naive)
-
+# Version v0.02
+'''
+    Function process
+    Input:
+        -> URL : https://www.example.com
+    Output:
+        -> Fills the database in a file DB.csv in local directory
+'''
 def process(url):
 
-    response = requests.get(url)
-    soup = BeautifulSoup(response.text, 'html.parser')
-
-    #print(soup.find_all('a', class_='departement')[0].get_text())
+    response = requests.get(url) # GET Request to the url
+    soup = BeautifulSoup(response.text, 'html.parser') # Parsing the results
 
     # Opening DB.csv file in writing mode
     f = open('DB.csv', 'w')
@@ -20,21 +24,20 @@ def process(url):
 
     # Filling the first row of the csv file
     writer.writerow(['Latitude', 'Longitude', 'Nom', 'URL', 'Type'])
-    
+   
+    # List containing regions to avoid 
     Hors_Hexagone = ['2b - Haute-Corse', '2a - Corse-du-Sud', '971 - Guadeloupe', '972 - Martinique', '973 - Guyane', '974 - La Réunion']
 
     # Retrieving the links of all the departements
     for element in soup.find_all('a', class_='departement'):    
+        # Filtering the results based on the to-avoid
+        # initialized previously [line 29]
         if (element.text not in Hors_Hexagone):
-            # print(element.text)
-            link = element['href']
-            #print("##################################################################")
-            #print(element.text)
-            #L.append(element['href'])
-            data = requests.get(link)
-            soup = BeautifulSoup(data.text, 'html.parser')
+            link = element['href'] # Retrieving the links
+            data = requests.get(link) # GET request for each link
+            soup = BeautifulSoup(data.text, 'html.parser') # Parsing the results
 
-            raw_data = soup.find_all('script')
+            raw_data = soup.find_all('script') # Looking up script tags to extract info later 
 
             # Iterating over all the HTML elements with script tag
             for unit in raw_data:
@@ -44,7 +47,7 @@ def process(url):
                     # in which the author appends the information to the list
                     data = unit.text.split('locations.push')
             
-            # data is an array, we get rid of the very first and very last element
+            # data is an array, we get rid of the first and last element
             # because they contain nothing interesting and we continue the investigation
             # of the elements in between
             for i in data[1:-1]:
